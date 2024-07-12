@@ -1,0 +1,22 @@
+.education {
+  padding: 100px 0px;
+  background-color: rgb(196, 191, 191);
+}
+
+.education hr {
+  color: #006875;
+  margin: 10px auto;
+}
+.education h2 {
+  color: #006875;
+  font-weight: bold;
+}
+.education .vertical-timeline-element-title {
+  color: #006875;
+}
+
+/* ========= DARK MODE ============ */
+
+#dark .education {
+  background-color: rgba(255, 255, 255, 0.095);
+}

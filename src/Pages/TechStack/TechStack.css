@@ -1,0 +1,33 @@
+.TechTittle {
+  text-align: center;
+  font-weight: bold;
+  color: #006875;
+}
+.breaKline {
+  color: #006875;
+}
+.card-content {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tech-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.cards:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #006875;
+  color: white;
+  transition: 1s;
+}
+
+#dark .cards {
+  background-color: white;
+  color: aliceblue;
+}
+#dark .cards .media-body {
+  color: black;
+}

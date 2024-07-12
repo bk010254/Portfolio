@@ -1,0 +1,30 @@
+.work {
+  background-color: rgb(175, 207, 207);
+  padding: 60px 0px;
+}
+.work-exp {
+  padding: 60px 0px;
+}
+.Mernicons {
+  margin-bottom: 20px;
+  align-items: center;
+}
+.vertical-timeline-element-title {
+  color: #006875;
+}
+.vertical-timeline-element-subtitle {
+  color: gray;
+}
+.ProjectDetailsEx {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+/* ===== DARK MODE ========== */
+#dark .work {
+  background-color: #643a6b;
+}
+
+#dark .work-exp h2 {
+  color: white;
+}

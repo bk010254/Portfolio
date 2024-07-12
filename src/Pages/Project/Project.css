@@ -1,0 +1,70 @@
+.container-projects {
+  padding-top: 20px;
+}
+.boxx {
+  width: 33.3333%;
+  float: left;
+  padding: 15px;
+}
+#ads {
+  margin: 30px 0px 30px 0;
+}
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #f39c12;
+}
+.card-detail-badge {
+  background-color: #f39c12;
+  text-align: center;
+  /* border-radius: 10px; */
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.card-images-overly span {
+  display: inline-block;
+  margin-left: 5px;
+  color: white;
+}
+.ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  background-color: #006875;
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.1s ease;
+}
+.ad-btn:hover {
+  background-color: white;
+  color: #0c0b0a;
+  font-weight: bold;
+  background: transparent;
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid #f39c12;
+}
